@@ -1,0 +1,15 @@
+figure{
+    max-width: 650px;
+    margin-right:auto;
+    margin-left:auto;
+    img{ width: 100%; }
+}
+header, main, footer{
+    width: 90vw;
+    margin-right:auto;
+    margin-left:auto;
+}
+#tetlist{
+    display: flex;
+    flex-flow: row wrap;
+}

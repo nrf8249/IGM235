@@ -1,0 +1,21 @@
+h2{ 
+    border-bottom: 5px solid red;
+    clear:both;
+}
+figure{ 
+    float: right;
+    width: 40%;
+    margin: 1%;
+    img{
+        width: 100%;
+    }
+}
+div{
+    float: left;
+    width: 200px;
+    border: 1px solid black;
+    img{ size: 50px; }
+}
+footer{
+    clear: both;
+}
