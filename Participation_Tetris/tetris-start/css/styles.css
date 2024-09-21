@@ -12,4 +12,14 @@ header, main, footer{
 #tetlist{
     display: flex;
     flex-flow: row wrap;
+    border: 1px solid black;
+    div{
+        flex: 1 0 450px;
+        img{width: 60%;}
+    }
+}
+span{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
