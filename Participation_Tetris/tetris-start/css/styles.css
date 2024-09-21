@@ -12,14 +12,18 @@ header, main, footer{
 #tetlist{
     display: flex;
     flex-flow: row wrap;
-    border: 1px solid black;
-    div{
-        flex: 1 0 450px;
-        img{width: 60%;}
-    }
+    flex: 1 0 450px;
+}
+.tet{
+    width: 300px;
+    & img{width: 60%;}
 }
 span{
     display: block;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.aliases{
+    text-align: left;
+    margin: 1em;
 }
